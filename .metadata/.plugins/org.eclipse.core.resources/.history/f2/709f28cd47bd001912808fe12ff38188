@@ -1,0 +1,42 @@
+package net.pg3da97n.TD3;
+
+import java.util.Scanner;
+
+public class Exo2_Sapin_trop_laid {
+	public static void main(String[]args) {
+		// Initialisation des paramètres et nb de triangle.
+		int NbSapint;
+		System.out.println("Commbien de triangle ?");
+		Scanner sc = new Scanner(System.in);
+		NbSapint = sc.nextInt();
+		int ligne = 4;		
+		
+		//nb de sapin
+		for(int i = NbSapint;i>0;i--) {
+	
+			
+			
+			for(int a = ligne; a>0; a--) {
+				for(int b = a; b>0; b--) {
+					System.out.print(" ");
+				}
+			
+
+
+
+
+				System.out.println("*");
+			}
+
+			
+			
+			//nb de ligne du sapin
+
+			
+			
+		}
+
+		
+	}
+
+}

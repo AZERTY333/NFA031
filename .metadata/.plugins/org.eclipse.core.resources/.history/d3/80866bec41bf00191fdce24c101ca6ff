@@ -1,0 +1,10 @@
+package net.pg3da97n.TD4;
+
+public class Exo1_tableaux_d_entier {
+	public static void main(String[]args) {
+	int[] tab = {12, 15, 13, 10, 8, 9, 13, 14};
+	//ecrire un tableau d'entier 
+	int[] tab;
+	new var = int[10]
+	}
+}
