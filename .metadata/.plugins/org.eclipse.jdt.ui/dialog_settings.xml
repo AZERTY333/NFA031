@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-1.8"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/administrateur/Téléchargements"/>
+	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
+	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
+	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
+	<item key="TypeHierarchyViewPart.orientation" value="3"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -23,5 +28,31 @@
 	<section name="completion_proposal_size">
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="331"/>
+			<item key="DIALOG_Y_ORIGIN" value="18"/>
+			<item key="DIALOG_FONT_NAME" value="1|Noto Sans|9.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="663"/>
+			<item key="DIALOG_Y_ORIGIN" value="187"/>
+			<item key="DIALOG_FONT_NAME" value="1|Noto Sans|9.0|0|GTK|1|"/>
+		</section>
 	</section>
 </section>

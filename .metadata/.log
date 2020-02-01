@@ -383,3 +383,565 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.egit.core 1 0 2019-08-15 11:28:35.479
 !MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-08-15 16:10:28.678 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-15 16:10:32.365
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-15 16:13:34.285
+!MESSAGE Unknown Host: http://download.eclipse.org/oomph/updates/milestone/latest/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:794)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1496)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1289)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-15 16:13:34.424
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/2019-03/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:794)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1496)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1289)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-15 16:13:34.535
+!MESSAGE Unknown Host: http://download.eclipse.org/eclipse/updates/4.11/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:794)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1496)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1289)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-08-26 22:12:52.222 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-26 22:12:56.074
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-09-06 20:55:39.317 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-06 20:55:42.983
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-09-07 17:34:25.343 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-07 17:34:29.841
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-09-07 18:59:17.182
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.corext.dom.ASTNodeFactory.newDefaultExpression(ASTNodeFactory.java:322)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.MissingReturnTypeCorrectionProposal.createDefaultExpression(MissingReturnTypeCorrectionProposal.java:175)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.MissingReturnTypeCorrectionProposal.evaluateReturnExpressions(MissingReturnTypeCorrectionProposal.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.MissingReturnTypeCorrectionProposal.getRewrite(MissingReturnTypeCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:113)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:196)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:203)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:328)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:214)
+	at org.eclipse.jdt.core.manipulation.CUCorrectionProposalCore.getAdditionalProposalInfo(CUCorrectionProposalCore.java:132)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:138)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2019-09-07 19:18:52.966
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-09-07 19:18:52.974
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-09-07 19:18:52.983
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-09-07 19:18:52.984
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-09-07 19:18:52.985
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-09-07 19:18:52.985
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-12-14 15:06:26.659 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-14 15:06:30.441
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-12-14 15:10:59.855 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-14 15:11:03.185
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-12-14 15:12:44.158 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-14 15:12:47.623
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.oomph.ui 4 0 2019-12-14 15:12:59.522
+!MESSAGE java.lang.ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:120)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:204)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:22)
+	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:112)
+	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:91)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.oomph.p2.internal.core.AgentManagerImpl.getCurrentAgent(AgentManagerImpl.java:167)
+	at org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:71)
+	at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:136)
+	... 6 more
+!SESSION 2019-12-28 10:48:20.700 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-28 10:48:24.245
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-12-28 11:06:30.013
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+!SESSION 2019-12-28 11:11:28.347 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-28 11:11:31.595
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-12-28 16:40:51.598 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-28 16:40:55.178
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-12-28 17:15:50.413 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data file:/home/administrateur/Documents/Eclipse_repository/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-28 17:15:56.122
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-01-05 14:19:03.011 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-05 14:19:12.065
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-01-05 14:20:47.439 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-05 14:20:50.838
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-01-05 18:48:29.697 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-05 18:48:33.196
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-01-11 18:05:28.211 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-11 18:05:31.725
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-01-11 21:36:35.353 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-11 21:36:39.259
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.testng.eclipse 1 0 2020-01-11 22:07:57.789
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar /home/administrateur/Documents/Eclipse_repository/Test/bin /home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar /home/administrateur/Téléchargements/junit-4.13-beta-3.jar /home/administrateur/Téléchargements/hamcrest-core-1.3.jar /home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar /home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 39427 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse--557259513/testng-customsuite.xml
+java -ea -classpath /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar:/home/administrateur/Documents/Eclipse_repository/Test/bin:/home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar:/home/administrateur/Téléchargements/junit-4.13-beta-3.jar:/home/administrateur/Téléchargements/hamcrest-core-1.3.jar:/home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar:/home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 39427 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse--557259513/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-01-11 22:17:39.817
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar /home/administrateur/Documents/Eclipse_repository/Test/bin /home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar /home/administrateur/Téléchargements/junit-4.13-beta-3.jar /home/administrateur/Téléchargements/hamcrest-core-1.3.jar /home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar /home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 45623 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse-1486148474/testng-customsuite.xml
+java -ea -classpath /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar:/home/administrateur/Documents/Eclipse_repository/Test/bin:/home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar:/home/administrateur/Téléchargements/junit-4.13-beta-3.jar:/home/administrateur/Téléchargements/hamcrest-core-1.3.jar:/home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar:/home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 45623 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse-1486148474/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-01-11 22:20:44.227
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar /home/administrateur/Documents/Eclipse_repository/Test/bin /home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar /home/administrateur/Téléchargements/junit-4.13-beta-3.jar /home/administrateur/Téléchargements/hamcrest-core-1.3.jar /home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar /home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 44159 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse-1470482682/testng-customsuite.xml
+java -ea -classpath /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar:/home/administrateur/Documents/Eclipse_repository/Test/bin:/home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar:/home/administrateur/Téléchargements/junit-4.13-beta-3.jar:/home/administrateur/Téléchargements/hamcrest-core-1.3.jar:/home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar:/home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 44159 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse-1470482682/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-01-11 22:21:05.432
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar /home/administrateur/Documents/Eclipse_repository/Test/bin /home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar /home/administrateur/Téléchargements/junit-4.13-beta-3.jar /home/administrateur/Téléchargements/hamcrest-core-1.3.jar /home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar /home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 38167 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse-853745520/testng-customsuite.xml
+java -ea -classpath /home/administrateur/eclipse/java-2019-03/eclipse/configuration/org.eclipse.osgi/477/0/.cp/lib/testng-remote.jar:/home/administrateur/Documents/Eclipse_repository/Test/bin:/home/administrateur/eclipse/java-2019-03/eclipse/plugins/junit-jupiter-5.5.1.jar:/home/administrateur/Téléchargements/junit-4.13-beta-3.jar:/home/administrateur/Téléchargements/hamcrest-core-1.3.jar:/home/administrateur/.p2/pool/plugins/org.testng_7.0.0.r201908191551.jar:/home/administrateur/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/administrateur/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/administrateur/.p2/pool/plugins/org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 38167 -protocol json -d /home/administrateur/Documents/Eclipse_repository/Test/test-output /tmp/testng-eclipse-853745520/testng-customsuite.xml
+!SESSION 2020-02-01 15:01:30.632 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-02-01 15:01:34.088
+!MESSAGE Using Apache MINA sshd as ssh client.
